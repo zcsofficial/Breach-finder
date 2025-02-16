@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: #0a0a0a;
+    color: #00ff00;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #00ff00;
+    background: #111;
+    box-shadow: 0px 0px 15px #00ff00;
+}
+
+.glitch {
+    font-size: 2em;
+    color: #00ff00;
+    text-shadow: 2px 2px 8px #00ff00;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 10px;
+    background: #00ff00;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.loading {
+    display: none;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 20px;
+    background: #333;
+    border: 1px solid #00ff00;
+    margin: auto;
+}
+
+.progress {
+    height: 100%;
+    width: 0%;
+    background: #00ff00;
+}
+
+.error {
+    color: red;
+    font-size: 18px;
+}
+
+.success {
+    color: #00ff00;
+    font-size: 18px;
+}

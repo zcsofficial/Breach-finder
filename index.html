@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breach Finder - Hackers Edition</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="hacker-overlay"></div>
+    <div class="container">
+        <h1 class="glitch">🔍 Breach Finder</h1>
+        <p id="typing-text"></p>
+
+        <!-- Search Box -->
+        <div class="search-box">
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button id="search-button">🔎 Search</button>
+        </div>
+
+        <!-- Loading Animation -->
+        <div id="loading" class="loading">
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <p id="progress-text">Checking... 0%</p>
+        </div>
+
+        <!-- Results -->
+        <div id="breach-count"></div>
+        <div id="result"></div>
+
+        <!-- Black Market Daily Stats -->
+        <div class="market-info">
+            <h2>🕵️‍♂️ Black Market Data Insights</h2>
+            <p id="market-data">Loading latest statistics...</p>
+        </div>
+
+        <!-- Security Quotes -->
+        <div class="security-quotes">
+            <h2>🔐 Stay Safe Online</h2>
+            <p id="security-quote"></p>
+        </div>
+    </div>
+</body>
+</html>
